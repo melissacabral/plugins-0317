@@ -1,0 +1,64 @@
+body{
+	background-color: #36576C;
+}
+.login form{
+	background-color: beige;
+}
+/* WordPress LOGO */
+.login h1 a{
+	background-image: url(../images/helmet.png);
+	width:128px;
+	height:128px;
+	background-size: 128px;
+}
+
+/*text on dark bg*/
+.login #backtoblog a, 
+.login #nav a{
+	color:gold;
+}
+#nav{
+	color:lightblue;
+}
+
+/* Primary BUTTON */
+.wp-core-ui .button-primary{
+	background-color: tomato;
+	border:none;
+	box-shadow: 0 3px 0 crimson;
+	text-shadow:none;
+	display: block;
+	font-size:1.3em;
+	margin:1em 0 0;
+	border-radius: 100em;
+	float:none;
+	clear:both;
+}
+.wp-core-ui .button.button-large{
+	padding: .4em 2em;
+	height:auto;
+}
+.wp-core-ui .button-primary:hover,
+.wp-core-ui .button-primary:focus{
+	background-color: orange;
+	box-shadow: 0 3px 0 darkorange;
+}
+
+.login form .forgetmenot{
+	float:none;
+}
+
+/*  feedback */
+
+/* generic:*/
+.login #login_error, .login .message{
+	border-left:none;
+	background-color: lightblue;
+}
+
+/* errors:*/
+.login #login_error{
+	background-color:pink;
+	color:crimson;
+}
+
